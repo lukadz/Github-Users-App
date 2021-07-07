@@ -1,0 +1,46 @@
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.background{
+  background:url(https://wallpaperaccess.com/full/3415007.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.load {
+	background-color:transparent;
+	border-radius:25px;
+	border:3px solid #9ba3a8;
+	display:inline-block;
+	cursor:pointer;
+	color:#b3b1b9;
+	font-family:Arial;
+	font-size:15px;
+	padding:14px 39px;
+	text-decoration:none;
+	text-shadow:0px 0px 11px #818f94;
+    display: inline-flex; 
+}
+
+.load:hover {
+	background-color:transparent;
+}
+.load:active {
+	position:relative;
+	top:1px;
+}
+.button{
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+
+.container1{
+  
+  
+}
+}

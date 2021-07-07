@@ -1,0 +1,42 @@
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: aliceblue;
+  text-align: center;
+  background:url(https://wallpaperaccess.com/full/3415007.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.imgCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCont img {
+  width: 50px;
+}
+.h1s{
+  color:rgb(153, 58, 14);
+  font-size: 20px;
+  
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -2px;
+  
+
+}
+.h1s a{
+  text-decoration: none;
+  color:blanchedalmond
+}
+
+@media screen and (max-width: 450px) {
+  
+  .image img {
+    width: 200px;
+    margin-top: 25vh;
+  }
+}

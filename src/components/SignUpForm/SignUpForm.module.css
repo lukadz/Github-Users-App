@@ -1,0 +1,82 @@
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid ;
+    opacity: 0.9;
+    color: black;
+    background-color:beige;
+    width: 400px;
+    min-height: 600px; 
+    position: relative;
+    right: 4rem;
+}
+
+.inputs{
+
+    --gap: -20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.lables{ 
+     --gap: -10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
+    text-align: center;
+}
+
+.button {
+	box-shadow: 11px 8px 7px -2px #276873;
+	background-color:transparent;
+	border-radius:25px;
+	border:3px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#1c0f1c;
+	font-family:Arial;
+	font-size:15px;
+	padding:14px 39px;
+	text-decoration:none;
+	text-shadow:0px 0px 11px #3d768a;
+    display: inline-flex;
+    margin-top: 20px;
+    
+}
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}    
+.all{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: flex-end;
+    background:url(https://www.hitting406.com/images/octocat.jpg) fixed center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+@media screen and (max-width: 450px) {
+    .box {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        top: 3rem;
+        text-align: center;
+        left: 0rem;
+    }
+  }

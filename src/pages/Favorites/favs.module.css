@@ -1,0 +1,26 @@
+.favs{
+    position: relative;
+    top: 10vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgb(25, 28, 49);
+    height: 100vh;
+}
+.favs div {
+    margin: .8rem;
+}
+body{
+    background-color: rgb(25, 28, 49);
+}
+
+@media screen and (max-width: 600px) {
+    .favs{
+        position: relative;
+        top: 25vh;
+    }
+    .favs div{
+        margin: 0 auto;
+    }
+ }

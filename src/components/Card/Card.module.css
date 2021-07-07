@@ -1,0 +1,27 @@
+.container {
+  background-color: aliceblue;
+  width: 20%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:cursive;
+  border: black 5px solid;
+  border-radius: 25px;
+  margin-top: 20vh;
+}
+.image img {
+  width: 70px;
+}
+
+@media screen and (max-width: 450px) {
+  .container{
+    width: 80%;
+    margin-top: 5vh;
+  }
+  .container:nth-child(1){
+    margin-top: 30vh;
+  }
+
+}
